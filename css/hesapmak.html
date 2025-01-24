@@ -1,0 +1,150 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+var islem,sayi1,sayi2;
+function bir()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"1";
+	}
+	function iki()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"2";
+	}
+	function uc()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"3";
+	}
+	function dort()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"4";
+	}
+	function bes()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"5";
+	}
+	function alti()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"6";
+	}
+	function yedi()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"7";
+	}
+	function sekiz()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"8";
+	}
+	function dokuz()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"9";
+	}
+	function sifir()
+{ 
+ document.getElementById("t1").value=document.getElementById("t1").value+"0";
+	}
+	function arti()
+	{
+	islem="+";
+	sayi1=parseFloat(document.getElementById("t1").value);
+	document.getElementById("t1").value="";
+	}
+	function eksi()
+	{
+	islem="-";
+	sayi1=parseFloat(document.getElementById("t1").value);
+	document.getElementById("t1").value="";
+	}
+	function carpi()
+	{
+	islem="*";
+	sayi1=parseFloat(document.getElementById("t1").value);
+	document.getElementById("t1").value="";
+	}
+	function bolu()
+	{
+	islem="/";
+	sayi1=parseFloat(document.getElementById("t1").value);
+	document.getElementById("t1").value="";
+	}
+	function esit()
+	{
+		sayi2=parseFloat(document.getElementById("t1").value);
+		document.getElementById("t1").value="";
+		if(islem=="+"){document.getElementById("t1").value=sayi1+sayi2;}
+		else if(islem=="-"){document.getElementById("t1").value=sayi1-sayi2;}
+		else if(islem=="*"){document.getElementById("t1").value=sayi1*sayi2;} 
+		else if(islem=="/"){document.getElementById("t1").value=sayi1/sayi2;}
+
+	}
+</script>
+
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <label>
+      <input type="text" name="textfield" id="t1" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button6" id="button6" value="1"  onclick="bir();"/>
+    </label>
+    <label>
+      <input type="button" name="button7" id="button7" value="2"  onclick="iki();"/>
+    </label>
+    <label>
+      <input type="button" name="button8" id="button8" value="3" onclick="uc();" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button9" id="button9" value="4" onclick="dort();" />
+    </label>
+    <label>
+      <input type="button" name="button10" id="button10" value="5" onclick="bes();" />
+    </label>
+    <label>
+      <input type="button" name="button11" id="button11" value="6" onclick="alti();" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button12" id="button12" value="7" onclick="yedi();" />
+    </label>
+    <label>
+      <input type="button" name="button13" id="button13" value="8"  onclick="sekiz();"/>
+    </label>
+    <label>
+      <input type="button" name="button15" id="button15" value="9"  onclick="dokuz();"/>
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button14" id="button14" value="0"  onclick="sifir();"/>
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button" id="button" value="+"  onclick="arti();"/>
+    </label>
+    <label>
+      <input type="button" name="button2" id="button2" value="-" onclick="eksi();" />
+      <br />
+      <input type="button" name="button4" id="button4" value="*"  onclick="carpi();"/>
+      <input type="button" name="button5" id="button5" value="/" onclick="bolu();" />
+    </label>
+  </p>
+  <p>
+    <label>
+<input type="button" name="button3" id="button3" value="="  onclick="esit();"/>
+    </label>
+  </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+var islem;
+<script type="text/javascript" language="javascript">
+function arti()s
+{
+	islem="+";
+}
+function eksi()
+{
+	islem="-";
+}
+function carpi()
+{
+	islem="*";
+}
+function bolu()
+{
+	islem="/";
+}
+function esit()
+{
+	if(islem=="+")
+
+{document.getElementById("sonuc").value=parseFloat(document.getElementById("s1").value)+parseFloat(document.getElementById("s2").value) }
+   else if (islem=="-")
+   {document.getElementById("sonuc").value=parseFloat(document.getElementById("s1").value)-parseFloat(document.getElementById("s2").value) }
+   else if (islem=="*")
+   {document.getElementById("sonuc").value=parseFloat(document.getElementById("s1").value)*parseFloat(document.getElementById("s2").value) }
+   else if (islem=="/")
+   {document.getElementById("sonuc").value=parseFloat(document.getElementById("s1").value)/parseFloat(document.getElementById("s2").value) }
+}
+
+</script>
+
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <label>
+      <input type="text" name="textfield2" id="s1" />
+    </label>
+    <label>
+      <input type="text" name="textfield3" id="s2" />
+    </label>
+    <label>
+      <input type="text" name="textfield" id="sonuc" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button" id="button" value="+"  onclick="arti()"/>
+    </label>
+    <label>
+      <input type="button" name="button2" id="button2" value="-"  onclick="eksi()"/>
+    </label>
+    <label>
+      <input type="button" name="button3" id="button3" value="*"  onclick="carpi()"/>
+    </label>
+    <label>
+      <input type="button" name="button4" id="button4" value="/"  onclick="bolu()"/>
+    </label>
+    <label>
+      <input type="button" name="button5" id="button5" value="="  onclick="esit()"/>
+    </label>
+  </p>
+</form>
+</body>
+</html>

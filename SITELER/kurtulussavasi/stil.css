@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	}
+a:link{
+	text-decoration:none;
+	color:#000;
+	}
+a:visited{
+	text-decoration:none;
+	color:#000;
+	}
+a:hover{
+	text-decoration:none;
+	color:#333;
+	}
+.banner{
+	height:228px;
+	width:1440px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.menu{
+	height:300px;
+	width:256px;
+	position:absolute;
+	left:0px;
+	top:228px;
+}
+
+.anayer {
+	height: 400px;
+	width: 600px;
+	position: absolute;
+	left: 418px;
+	top: 179px;
+	background-color:#FFF;
+	border-radius:20px;
+	opacity:0.6;
+}
+.anayazi {
+	height: 100px;
+	width: 500px;
+	position: absolute;
+	left: 470px;
+	top: 190px;
+	font-size:24px;
+	font-family: 'Shrikhand', cursive;
+}
+.anayerresmi {
+	position: absolute;
+	left: 1px;
+	top: -29px;
+}
+
+.linkler {
+	height: 445px;
+	width: 220px;
+	background-color:#FFF;
+	opacity:0.6;
+	position: absolute;
+	left: 2px;
+	top: 158px;
+	border-top-left-radius:50px;
+	border-bottom-right-radius:50px;
+	text-align:center;
+	font-family: 'Shrikhand', cursive;
+	font-size:23px;
+	color: #333;
+	
+}
+.linkyazi {
+	height: 445px;
+	width: 220px;
+	position: absolute;
+	left: 2px;
+	top: 171px;
+	text-align:center;
+	font-family: 'Shrikhand', cursive;
+	font-size:23px;
+}
+.baslik {
+	height:165px;
+	width:376px;
+	position:absolute;
+	left: 506px;
+	top: -7px;
+	font-family: 'Shrikhand', cursive;
+	text-align:center;
+	font-size:60px;
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+
+.bannerana {
+	height: 148px;
+	width: 100%;
+	background-color#999;
+	top:0px;
+	right:0px;
+	left:0px;
+	position:absolute;	
+}
+.dugme1{
+	background-color:#FFF;
+	height: 40px;
+	width: 725px;
+	position:absolute;
+	left: 372px;
+	top: 98px;
+	text-align:center;
+	padding-top:10px;
+	font-size: 24px;
+	font-weight: bold;
+	color:#03F;
+	}
+.resim{
+	background-color:#FFF;
+	position:absolute;
+	left: 107px;
+	top: 5px;
+	}
+.anamenu {
+	background-color: #FFF;
+	height: 800px;
+	width: 1120px;
+	position: absolute;
+	left: 140px;
+	top: 235px;
+	text-align:center;
+	padding-top:25px;
+	font-size: 24px;
+	font-style: italic;
+	color: #F00;
+}
+.arkaplan{
+	height:1000px;
+	width:100%;
+	background-color:#000;
+	position:absolute;
+	left: 0px;
+	top: 148px;
+	}
+	
+.basket {
+	position:absolute;
+	left: 189px;
+	top: 343px;
+	width: 100px;
+	height: 100px;
+	
+}
+.futbol {
+	position:absolute;
+	left: 191px;
+	top: 617px;
+	width: 100px;
+	height: 100px;
+	
+}
+.voley {
+	position:absolute;
+	left: 590px;
+	top: 342px;
+	width: 100px;
+	height: 100px;
+	
+}
+.diger{
+	height:300px;
+	width:300px;
+	background-color:#FFF;
+	position:absolute;
+	left: 621px;
+	top: 645px;
+	text-align:center;
+	text-top:50px;
+	font-size: 36px;
+	font-style: italic;
+	color:#F00;
+	}

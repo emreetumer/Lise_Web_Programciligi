@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+function yaz()
+{for(k=1;k<=10;k++){document.getElementById("t1").value=document.getElementById("t1").value+" "+k;}
+}
+function geri()
+{for(k=10;k>=1;k--){document.getElementById("t2").value=document.getElementById("t2").value+" "+k;}
+}
+function elli()
+{for(k=0;k<=50;k=k+5){document.getElementById("t3").value=document.getElementById("t3").value+" "+k;}
+}
+function yuz()
+{for(k=100;k>=0;k=k-2){document.getElementById("t4").value=document.getElementById("t4").value+" "+k;}
+}
+</script>
+<br /><br /><br /><br /><br />
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <label>
+      <input type="button" name="button" id="button" value="1den10a kadar" onclick="yaz();" />
+    </label>
+    <label>
+      <input type="text" name="textfield" id="t1" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button2" id="button2" value="10dan1e kadar" onclick="geri();"/>
+    </label>
+    <label>
+      <input type="text" name="textfield2" id="t2" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button3" id="button3" value="0dan50ye 5er5er" onclick="elli();" />
+    </label>
+    <label>
+      <input type="text" name="textfield3" id="t3" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="button" name="button4" id="button4" value="100den0a çift sayılar" onclick="yuz();" />
+    </label>
+    <label>
+      <input type="text" name="textfield4" id="t4" />
+    </label>
+  </p>
+  <p>&nbsp;</p>
+</form>
+
+
+</body>
+</html>
